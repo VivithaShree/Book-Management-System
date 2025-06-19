@@ -1,25 +1,5 @@
 A full-stack Book Management System built using React.js (frontend), FastAPI (backend), and MongoDB (database). This application allows users to manage books with features like adding, viewing, editing, and deleting book entries. The project demonstrates a comprehensive understanding of full-stack development with API communication and database integration.
 
-Table of Contents
-Features
-
-Prerequisites
-
-Installation and Setup
-
-Usage
-
-File Structure
-
-API Endpoints
-
-Troubleshooting
-
-Contributing
-
-License
-
-Features
 User Authentication: Login and Registration.
 
 Add Book: Form to add book details.
@@ -118,31 +98,6 @@ File Structure
 pgsql
 Copy
 Edit
-Book-Management-System/
-├── Backend/
-│   ├── __init__.py
-│   ├── database.py
-│   ├── main.py
-│   ├── models.py
-│   ├── schemas.py
-│   ├── routers/
-│       ├── auth.py
-│       ├── books.py
-├── frontend/
-│   ├── my-app/
-│       ├── public/
-│           ├── index.html
-│       ├── src/
-│           ├── components/
-│               ├── Login.js
-│               ├── Register.js
-│               ├── AddBook.js
-│               ├── ViewBooks.js
-│           ├── App.js
-│           ├── index.js
-├── README.md
-API Endpoints
-Endpoint	Method	Description
 /register	POST	Register a new user
 /login	POST	User login
 /add-book	POST	Add a new book
